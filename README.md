@@ -1,4 +1,4 @@
-![Seltris image](./resources/seltris-title.png)
+![seltris image](./resources/seltris-title.png)
 
 # Welcome
 
@@ -15,10 +15,10 @@ Welcome to the Seltris project. This image is part of the [Drako](https://github
 3. Common operations.
 ### 1. The Seltris image contexts.
 * The following figure shows these contexts:
-![Seltris image](resources/seltris-contexts.png)
+![seltris image](resources/seltris-contexts.png)
 * In this case Seltris only uses one context: 
   * Configuration and packages: 
-    * Seltris adds to its Entry Point a special function that lets you run a Spring Boot application.  
+    * Seltris adds a special function that lets you run a Spring Boot application from its Entry Point.  
 * :bulb: You can use Seltris on production environments.    
 ### 2. Seltris configuration.
 * :exclamation: Under the configuration directory you will find a file called const.sh. Please review this file carefully and make the necessary changes.  
@@ -43,14 +43,14 @@ Welcome to the Seltris project. This image is part of the [Drako](https://github
   * executables.
     * Each script under this directory wraps a useful Docker command.
     * To give it a try:
-      * You need a Spring Boot application first. The Social microservice is a good fit, you find it following this [link](https://github.com/v8tix/social).
-      * Then, be sure you meet all the requirements described in step 2.
-      * Now you can execute the run.sh script. This starts a detached container.
-        * To get a console, you will need to execute the attach.sh script.
-        * :bulb: Like in SSH remote connections, you will need to write 'exit' and then press Enter to close the opened connection.
-      * Once you are done with this container, there are two ways to stop it:
-        * If you want to just stop it and keep this image, execute the stop.sh script, or         
-        * you want to stop it and you no longer need this image, execute the delete.sh script instead.
+      * You need a Spring Boot application first. The [Social](https://github.com/v8tix/social) microservice is a good fit.
+      * Be sure you accomplished all the requirements described in step 2.
+      * Now, you can execute the run.sh script. This will start a detached container.
+        * To get a console, execute the attach.sh script.
+        * :bulb: Like in SSH connections, type 'exit' and then press Enter to close the console.
+      * When you are done, there are two ways to stop it:
+        * If you want to stop it, and keep this image, execute the stop.sh script,         
+        * Otherwise execute the delete.sh script instead.
 ## Authors
 * Initial work
   * V8TIX - info@v8tix.com   
