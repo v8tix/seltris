@@ -42,10 +42,12 @@ Welcome to the Seltris project. This image is part of the [Drako](https://github
     * Once the image was built, you can go to the executables directory.
   * executables.
     * Each script under this directory wraps a useful Docker command.
-    * To give a try the container:
-      * Execute the run.sh script. This starts a detached container.
-      * To get a console, you will need to execute the attach.sh script.
-      * :bulb: Like in SSH remote connections, you will need to write 'exit' and then press Enter to close the opened connection.
+    * To give it a try:
+      * You need a Spring Boot application first. The Social microservice is a good fit, you find it following this [link](https://github.com/v8tix/social).
+      * Then, be sure you meet all the requirements described in step 2.
+      * Now you can execute the run.sh script. This starts a detached container.
+        * To get a console, you will need to execute the attach.sh script.
+        * :bulb: Like in SSH remote connections, you will need to write 'exit' and then press Enter to close the opened connection.
       * Once you are done with this container, there are two ways to stop it:
         * If you want to just stop it and keep this image, execute the stop.sh script, or         
         * you want to stop it and you no longer need this image, execute the delete.sh script instead.
