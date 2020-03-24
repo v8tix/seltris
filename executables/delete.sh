@@ -2,5 +2,5 @@
 dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 . ""${dir}"/../configuration/const.sh"
 
-stop.sh
+./stop.sh
 docker rmi "${IMAGE_TAG}"
